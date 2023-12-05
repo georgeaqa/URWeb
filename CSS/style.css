@@ -35,7 +35,6 @@ nav div a img {
   text-align: justify;
   margin: 10px;
   padding: 10px;
-  border: 1px solid;
 }
 
 #clanes #listaClanes {
@@ -44,9 +43,9 @@ nav div a img {
 }
 
 #clanes #listaClanes div {
-  border: 1px solid #000;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -75,46 +74,20 @@ nav div a img {
 .card .card-footer {
   text-align: center;
 }
-/*BODY CONTACTO*/
 
-#Mensaje {
-  border: 1px solid;
+/*BODY CONTACTO*/
+form {
   margin: 20px;
   padding: 10px;
 }
 
 /*BODY LOGIN*/
 
-#Login form {
-  border: 1px solid;
-  margin: 20px;
-  padding: 10px;
-}
-
 /*BODY SIGNUP*/
 
-#SignUp form {
-  border: 1px solid;
-  margin: 20px;
-  padding: 10px;
-}
-
 /*FOOTER*/
-footer {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-footer ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  padding-inline-start: 0px;
-}
-
-footer ul li {
-  padding: 0px 10px 0px 10px;
+.footer {
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 1023px) {

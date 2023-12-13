@@ -2,27 +2,13 @@
 @import "base/typography";
 
 //COMPONENTS
+@import "components/form";
 
 //LAYOUT
 @import "layout/header";
 @import "layout/navbar";
+@import "layout/footer";
 
 //PAGES
 @import "pages/home";
 @import "pages/Clanes";
-
-
-/*BODY CONTACTO*/
-form {
-  margin: 20px;
-  padding: 10px;
-}
-
-/*BODY LOGIN*/
-
-/*BODY SIGNUP*/
-
-/*FOOTER*/
-.footer {
-  margin-top: 10px;
-}

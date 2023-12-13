@@ -2,24 +2,21 @@
   font-family: UrbanRivals;
   src: url(./../fonts/UrbanRivals.ttf);
 }
-
 body {
   font-family: UrbanRivals;
-} 
+}
 
-/*HEADER*/
 nav div a img {
   width: 100px;
   height: 50px;
 }
-#navbarNav {
+nav div #navbarNav {
   justify-content: space-between;
 }
-#navbarNav a {
+nav div #navbarNav a {
   color: white;
 }
 
-/*BODY HOME*/
 #portada {
   display: flex;
   flex-direction: column;
@@ -31,47 +28,32 @@ nav div a img {
   height: 150px;
 }
 #portada p {
-  width: 50%;
+  width: 75%;
   text-align: justify;
   margin: 10px;
   padding: 10px;
 }
 
-#clanes #listaClanes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#clanes #listaClanes div {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-}
-#clanes #listaClanes div p {
-  padding-left: 20px;
+#clanes div div div div p {
   text-align: justify;
 }
 
-/*BODY CLANES*/
-.card .card-header {
+div div div div .card-header {
   text-align: center;
 }
-.card .card-img-top {
+div div div div .card-img-top {
   width: 200px;
 }
-.card .card-body {
+div div div div .card-body {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
-.card .card-body .card-text {
+div div div div .card-body .card-text {
   text-align: justify;
   font-size: 14px;
 }
-.card .card-footer {
+div div div div .card-footer {
   text-align: center;
 }
 
@@ -82,35 +64,10 @@ form {
 }
 
 /*BODY LOGIN*/
-
 /*BODY SIGNUP*/
-
 /*FOOTER*/
 .footer {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 1023px) {
-  #portada p {
-    width: 75%;
-  }
-  #clanes #listaClanes {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #portada p {
-    width: 90%;
-  }
-  #clanes #listaClanes div {
-    border: 1px solid #000;
-    margin: 10px;
-    padding: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  #clanes #listaClanes div p {
-    padding-left: 0px;
-  }
-}
+/*# sourceMappingURL=style.css.map */

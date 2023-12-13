@@ -1,3 +1,28 @@
-body{
-    background-color:red;
+//BASE
+@import "base/typography";
+
+//COMPONENTS
+
+//LAYOUT
+@import "layout/header";
+@import "layout/navbar";
+
+//PAGES
+@import "pages/home";
+@import "pages/Clanes";
+
+
+/*BODY CONTACTO*/
+form {
+  margin: 20px;
+  padding: 10px;
+}
+
+/*BODY LOGIN*/
+
+/*BODY SIGNUP*/
+
+/*FOOTER*/
+.footer {
+  margin-top: 10px;
 }

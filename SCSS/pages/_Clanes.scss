@@ -1,0 +1,26 @@
+div {
+  div {
+    div {
+      div {
+        .card-header {
+          text-align: center;
+        }
+        .card-img-top {
+          width: 200px;
+        }
+        .card-body {
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          .card-text {
+            text-align: justify;
+            font-size: 14px;
+          }
+        }
+        .card-footer {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

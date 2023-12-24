@@ -1,0 +1,17 @@
+main {
+    div {
+      div {
+        form {
+          div {
+            #aceptar {
+              @include btnbg(map-get($map: $color, $key: success));
+            }
+            #cancelar {
+                @include btnbg(map-get($map: $color, $key: warning));
+              }
+          }
+        }
+      }
+    }
+  }
+  

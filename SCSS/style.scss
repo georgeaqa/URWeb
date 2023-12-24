@@ -1,4 +1,9 @@
+//ABSTRACTS
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
 //BASE
+@import "base/reset";
 @import "base/typography";
 
 //COMPONENTS
@@ -12,3 +17,6 @@
 //PAGES
 @import "pages/home";
 @import "pages/Clanes";
+@import "pages/Contacto";
+@import "pages/Login";
+@import "pages/SignUp";

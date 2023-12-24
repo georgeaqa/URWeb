@@ -1,0 +1,11 @@
+main {
+  div {
+    form {
+      div {
+        .btncolor {
+          @include btnbg(map-get($map: $color, $key: success));
+        }
+      }
+    }
+  }
+}

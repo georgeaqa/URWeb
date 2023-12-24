@@ -5,286 +5,304 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./../CSS/bootstrap.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./../CSS/style.css" />
   </head>
   <body>
     <div class="container-fluid">
       <!-- Inicio de Header-->
-      <nav
-        class="navbar navbar-expand-lg bg-dark sticky-top"
-        data-bs-theme="dark"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./../index.html">
-            <img
-              src="https://s.acdn.ur-img.com/media/special_logo_image/0/1.png?1701364693"
-              alt="Logo"
-            />
-          </a>
+      <header>
+        <nav
+          class="navbar navbar-expand-lg bg-dark sticky-top"
+          data-bs-theme="dark"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./../index.html">
+              <img
+                src="https://s.acdn.ur-img.com/media/special_logo_image/0/1.png?1701364693"
+                alt="Logo"
+              />
+            </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Clanes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <a class="nav-link" href="./Login.html">Login</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Clanes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Contacto.html">Contacto</a>
+                </li>
+              </ul>
+              <a class="nav-link" href="./Login.html">Login</a>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </header>
+
       <!-- Fin de Header-->
 
       <!--Inicio del Main-->
-      <div>
-        <div class="text-center">
-          <img
-            src="https://s.acdn.ur-img.com/img/v3/clans/leader.png"
-            alt="Leaders"
-          />
-        </div>
-        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 row-gap-3">
-          <div class="col">
-            <div class="card h-100 border border-dark shadow p-3 rounded">
-              <h5 class="card-header">Kate</h5>
-              <img
-                src="https://s.acdn.ur-img.com/characters/cebd098903b655820a989e6d09b28066.png"
-                class="card-img-top mx-auto"
-                alt="kate"
-              />
-              <div class="card-body overflow-auto">
-                <p class="card-text">
-                  Kate está con nosotros desde el principio. Ella es quien ha
-                  acompañado nuestros primeros pasos en el juego, la que
-                  permanece a nuestro lado y la que ha reclutado a todos los
-                  personajes que forman parte de esta gran aventura. Y si bien
-                  es verdad que ha cometido algunos errores, como quedarse con
-                  un buen porcentaje de nuestras ventas, proponer precios de
-                  recompra cuestionables y dejarse sobornar por una secta
-                  interdimensional llamada Oculus, lo cierto es que nadie es
-                  perfecto. Por todo ello, debemos prestarle nuestro apoyo en
-                  los buenos y malos momentos, y echarle una mano para que pueda
-                  librarse de este poder que la carcome. ¡El futuro de Clint
-                  City depende de ello!
-                </p>
-              </div>
-              <p class="card-footer">Precio: $100</p>
-              <button href="" class="btn btn-primary">Agregar</button>
-            </div>
+      <main>
+        <div>
+          <div class="text-center">
+            <img
+              src="https://s.acdn.ur-img.com/img/v3/clans/leader.png"
+              alt="Leaders"
+            />
           </div>
-          <div class="col">
-            <div class="card h-100 border border-dark shadow p-3 rounded">
-              <h5 class="card-header">Vaansar</h5>
-              <img
-                src="https://s.acdn.ur-img.com/characters/1b35e5a0eb6708adc708bc6505aeb0d3.png"
-                class="card-img-top mx-auto"
-                alt="Vaansar"
-              />
-              <div class="card-body overflow-auto">
-                <p class="card-text">
-                  Desde los primeros días de su incorporación al ejército del
-                  Polit, Van Saar comprendió que dedicaría toda su vida al
-                  servicio de esta prestigiosa institución y que lo sacrificaría
-                  todo, esposa, hijos, amistades e incluso su salud. Desde las
-                  trincheras de primera línea hasta los salones de estado mayor,
-                  ha vivido todas las experiencias, y actualmente, nadie en
-                  Clint City domina el delicado arte del combate mejor que él.
-                </p>
+          <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 row-gap-3">
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 border border-dark shadow p-3 rounded">
+                <h5 class="card-header">Kate</h5>
+                <img
+                  src="https://s.acdn.ur-img.com/characters/cebd098903b655820a989e6d09b28066.png"
+                  class="card-img-top mx-auto"
+                  alt="kate"
+                />
+                <div class="card-body overflow-auto">
+                  <p class="card-text">
+                    Kate está con nosotros desde el principio. Ella es quien ha
+                    acompañado nuestros primeros pasos en el juego, la que
+                    permanece a nuestro lado y la que ha reclutado a todos los
+                    personajes que forman parte de esta gran aventura. Y si bien
+                    es verdad que ha cometido algunos errores, como quedarse con
+                    un buen porcentaje de nuestras ventas, proponer precios de
+                    recompra cuestionables y dejarse sobornar por una secta
+                    interdimensional llamada Oculus, lo cierto es que nadie es
+                    perfecto. Por todo ello, debemos prestarle nuestro apoyo en
+                    los buenos y malos momentos, y echarle una mano para que
+                    pueda librarse de este poder que la carcome. ¡El futuro de
+                    Clint City depende de ello!
+                  </p>
+                </div>
+                <p class="card-footer">Precio: $100</p>
+                <button href="" class="btn btn-primary">Agregar</button>
               </div>
-              <p class="card-footer">Precio: $100</p>
-              <button href="" class="btn btn-primary">Agregar</button>
             </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border border-dark shadow p-3 rounded">
-              <h5 class="card-header">Administrator</h5>
-              <img
-                src="https://s.acdn.ur-img.com/characters/7c65804d38821b80428a84055879ef24.png"
-                class="card-img-top mx-auto"
-                alt="Administrator"
-              />
-              <div class="card-body overflow-auto">
-                <p class="card-text">
-                  Maestro de las ecuaciones por las que se rige Clint City, el
-                  Administrador es un programa neutro presente desde la primera
-                  versión de Clint Fighting. Es una idea de los desarrolladores
-                  de Acute Games, una entidad oscura de una dimensión paralela.
-                  Al mismo tiempo, apareció una anomalía importante, acrecentada
-                  por las recientes perturbaciones dimensionales: el corazón de
-                  todo el sistema está enfermo, tanto de un lado como del otro.
-                  Dado que está equipado con tecnología Vortex y Hive, la idea
-                  es enviar al Administrador en forma de ""Oculus Inactivo""
-                  para agitar y desencadenar una tormenta dentro de todo el
-                  sistema, ¡protegiéndonos en caso de que se produzca una nueva
-                  infección!
-                </p>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 border border-dark shadow p-3 rounded">
+                <h5 class="card-header">Vaansar</h5>
+                <img
+                  src="https://s.acdn.ur-img.com/characters/1b35e5a0eb6708adc708bc6505aeb0d3.png"
+                  class="card-img-top mx-auto"
+                  alt="Vaansar"
+                />
+                <div class="card-body overflow-auto">
+                  <p class="card-text">
+                    Desde los primeros días de su incorporación al ejército del
+                    Polit, Van Saar comprendió que dedicaría toda su vida al
+                    servicio de esta prestigiosa institución y que lo
+                    sacrificaría todo, esposa, hijos, amistades e incluso su
+                    salud. Desde las trincheras de primera línea hasta los
+                    salones de estado mayor, ha vivido todas las experiencias, y
+                    actualmente, nadie en Clint City domina el delicado arte del
+                    combate mejor que él.
+                  </p>
+                </div>
+                <p class="card-footer">Precio: $100</p>
+                <button href="" class="btn btn-primary">Agregar</button>
               </div>
-              <p class="card-footer">Precio: $100</p>
-              <button href="" class="btn btn-primary">Agregar</button>
             </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="text-center">
-          <img
-            src="https://s.acdn.ur-img.com/img/v3/clans/oculus.png"
-            alt="Oculus"
-          />
-        </div>
-        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 row-gap-3">
-          <div class="col">
-            <div class="card h-100 border border-dark shadow p-3 rounded">
-              <h5 class="card-header">Genesis</h5>
-              <img
-                src="https://s.acdn.ur-img.com/characters/ed3fb60d35036dd37ec46bfe46489032.png"
-                class="card-img-top mx-auto"
-                alt="Genesis"
-              />
-              <div class="card-body overflow-auto">
-                <p class="card-text">
-                  Cuando creó el universo, el Glibon Dashra Sakrh era un ser
-                  complejo con sentimientos contradictorios. Para convertirse en
-                  un dios bondadoso, se desprendió de todos sus pecados, que se
-                  materializaron en los 7 titanes primordiales. Si bien el
-                  ardiente orgullo de Griffonmor y la gélida ira de Ymirah
-                  estuvieron a punto de destruir varios mundos, es la gula de
-                  Genesis la que representa el mayor peligro. Genesis es un
-                  auténtico reciclador que se alimenta de las almas perdidas,
-                  consumiendo la razón de sus huéspedes y transformándolos en
-                  marionetas incapaces de resistirse a sus impulsos. De este
-                  modo, los mundos han sido engullidos por guerras constantes,
-                  que dividieron en clanes a sociedades que antes permanecían
-                  unidas. Temiendo que Genesis pudiese destruir todo lo que él
-                  había creado, el Glibon lo encerró en una dimensión vacía
-                  donde debía permanecer eternamente. Pero alguien abrió el
-                  portal hacia esta dimensión, liberando a la bestia
-                  hambrienta... La influencia de Genesis se percibe cada vez más
-                  en las calles de Clint City. Si uno se fija bien, incluso es
-                  posible ver cómo sus ojos cósmicos tornan el cielo en rojo
-                  sangre. ¡Ha llegado el día! ¡La profecía del 5º mundo por fin
-                  se hace realidad!
-                </p>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 border border-dark shadow p-3 rounded">
+                <h5 class="card-header">Administrator</h5>
+                <img
+                  src="https://s.acdn.ur-img.com/characters/7c65804d38821b80428a84055879ef24.png"
+                  class="card-img-top mx-auto"
+                  alt="Administrator"
+                />
+                <div class="card-body overflow-auto">
+                  <p class="card-text">
+                    Maestro de las ecuaciones por las que se rige Clint City, el
+                    Administrador es un programa neutro presente desde la
+                    primera versión de Clint Fighting. Es una idea de los
+                    desarrolladores de Acute Games, una entidad oscura de una
+                    dimensión paralela. Al mismo tiempo, apareció una anomalía
+                    importante, acrecentada por las recientes perturbaciones
+                    dimensionales: el corazón de todo el sistema está enfermo,
+                    tanto de un lado como del otro. Dado que está equipado con
+                    tecnología Vortex y Hive, la idea es enviar al Administrador
+                    en forma de ""Oculus Inactivo"" para agitar y desencadenar
+                    una tormenta dentro de todo el sistema, ¡protegiéndonos en
+                    caso de que se produzca una nueva infección!
+                  </p>
+                </div>
+                <p class="card-footer">Precio: $100</p>
+                <button href="" class="btn btn-primary">Agregar</button>
               </div>
-              <p class="card-footer">Precio: $100</p>
-              <button href="" class="btn btn-primary">Agregar</button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border border-dark shadow p-3 rounded">
-              <h5 class="card-header">Phalloide</h5>
-              <img
-                src="https://s.acdn.ur-img.com/characters/02472972da28dcb627682dba7926bfae.png"
-                class="card-img-top mx-auto"
-                alt="Phalloide"
-              />
-              <div class="card-body overflow-auto">
-                <p class="card-text">
-                  Los veteranos de UR la tienen que conocer. Es la Ministra a
-                  cargo de la inmigración de Clint City que trabaja 24 horas al
-                  día, los 7 días a la semana. ¿Cómo es posible seguir semejante
-                  ritmo? Muy fácil, la versión ""Phalloide"" de Kate es un
-                  robot. A pesar de que su tecnología está anticuada desde hace
-                  algunos años, esto no ha afectado en absoluto a su increíble
-                  eficacia. Desde hace algunas semanas, el Oculus ha estado
-                  interfiriendo en sus circuitos y la actualización parece
-                  funcionar. El robot y el superextraterrestre conforman un
-                  todo, ¡logrando así que nuestro Phalloide sea legendario!
-                </p>
-              </div>
-              <p class="card-footer">Precio: $100</p>
-              <button href="" class="btn btn-primary">Agregar</button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border border-dark shadow p-3 rounded">
-              <h5 class="card-header">Pulp</h5>
-              <img
-                src="https://s.acdn.ur-img.com/characters/52854fe26c2b7126c7c3b328113f8a14.png"
-                class="card-img-top mx-auto"
-                alt="Pulp"
-              />
-              <div class="card-body overflow-auto">
-                <p class="card-text">
-                  A Nadia nunca le gustaron los vínculos que su padre mantiene
-                  con el Oculus, una organización contra la que ella lucha sin
-                  descanso. El duelo que disputó con C-Ortez fue también una
-                  excusa para encontrar un informe secreto sobre un parásito muy
-                  particular... ¡Y eso es justo lo que acaba de pasar! C-Ortez
-                  ha tenido éxito, tiene en sus manos un informe secreto sobre
-                  un parásito... muy particular. Este informe, que su hija
-                  quería obtener a toda costa, está en buenas manos. Informe de
-                  incidentes entregado a Kate - Pulp, anomalía OCULUS Ocurre
-                  que, a veces, los parásitos del Oculus no consiguen encontrar
-                  un huésped y acaban perdiendo sus capacidades simbióticas.
-                  Esto es extremadamente raro y Pulp es uno de estos casos. El
-                  simbionte está custodiado por una misteriosa persona exenta de
-                  emociones, por lo que no la puede parasitar. Hay que
-                  recuperarlo y averiguar dónde se originó esta incapacidad para
-                  infiltrarse.
-                </p>
-              </div>
-              <p class="card-footer">Precio: $100</p>
-              <button href="" class="btn btn-primary">Agregar</button>
             </div>
           </div>
         </div>
-      </div>
+        <div>
+          <div class="text-center">
+            <img
+              src="https://s.acdn.ur-img.com/img/v3/clans/oculus.png"
+              alt="Oculus"
+            />
+          </div>
+          <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 row-gap-3">
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 border border-dark shadow p-3 rounded">
+                <h5 class="card-header">Genesis</h5>
+                <img
+                  src="https://s.acdn.ur-img.com/characters/ed3fb60d35036dd37ec46bfe46489032.png"
+                  class="card-img-top mx-auto"
+                  alt="Genesis"
+                />
+                <div class="card-body overflow-auto">
+                  <p class="card-text">
+                    Cuando creó el universo, el Glibon Dashra Sakrh era un ser
+                    complejo con sentimientos contradictorios. Para convertirse
+                    en un dios bondadoso, se desprendió de todos sus pecados,
+                    que se materializaron en los 7 titanes primordiales. Si bien
+                    el ardiente orgullo de Griffonmor y la gélida ira de Ymirah
+                    estuvieron a punto de destruir varios mundos, es la gula de
+                    Genesis la que representa el mayor peligro. Genesis es un
+                    auténtico reciclador que se alimenta de las almas perdidas,
+                    consumiendo la razón de sus huéspedes y transformándolos en
+                    marionetas incapaces de resistirse a sus impulsos. De este
+                    modo, los mundos han sido engullidos por guerras constantes,
+                    que dividieron en clanes a sociedades que antes permanecían
+                    unidas. Temiendo que Genesis pudiese destruir todo lo que él
+                    había creado, el Glibon lo encerró en una dimensión vacía
+                    donde debía permanecer eternamente. Pero alguien abrió el
+                    portal hacia esta dimensión, liberando a la bestia
+                    hambrienta... La influencia de Genesis se percibe cada vez
+                    más en las calles de Clint City. Si uno se fija bien,
+                    incluso es posible ver cómo sus ojos cósmicos tornan el
+                    cielo en rojo sangre. ¡Ha llegado el día! ¡La profecía del
+                    5º mundo por fin se hace realidad!
+                  </p>
+                </div>
+                <p class="card-footer">Precio: $100</p>
+                <button href="" class="btn btn-primary">Agregar</button>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 border border-dark shadow p-3 rounded">
+                <h5 class="card-header">Phalloide</h5>
+                <img
+                  src="https://s.acdn.ur-img.com/characters/02472972da28dcb627682dba7926bfae.png"
+                  class="card-img-top mx-auto"
+                  alt="Phalloide"
+                />
+                <div class="card-body overflow-auto">
+                  <p class="card-text">
+                    Los veteranos de UR la tienen que conocer. Es la Ministra a
+                    cargo de la inmigración de Clint City que trabaja 24 horas
+                    al día, los 7 días a la semana. ¿Cómo es posible seguir
+                    semejante ritmo? Muy fácil, la versión ""Phalloide"" de Kate
+                    es un robot. A pesar de que su tecnología está anticuada
+                    desde hace algunos años, esto no ha afectado en absoluto a
+                    su increíble eficacia. Desde hace algunas semanas, el Oculus
+                    ha estado interfiriendo en sus circuitos y la actualización
+                    parece funcionar. El robot y el superextraterrestre
+                    conforman un todo, ¡logrando así que nuestro Phalloide sea
+                    legendario!
+                  </p>
+                </div>
+                <p class="card-footer">Precio: $100</p>
+                <button href="" class="btn btn-primary">Agregar</button>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 border border-dark shadow p-3 rounded">
+                <h5 class="card-header">Pulp</h5>
+                <img
+                  src="https://s.acdn.ur-img.com/characters/52854fe26c2b7126c7c3b328113f8a14.png"
+                  class="card-img-top mx-auto"
+                  alt="Pulp"
+                />
+                <div class="card-body overflow-auto">
+                  <p class="card-text">
+                    A Nadia nunca le gustaron los vínculos que su padre mantiene
+                    con el Oculus, una organización contra la que ella lucha sin
+                    descanso. El duelo que disputó con C-Ortez fue también una
+                    excusa para encontrar un informe secreto sobre un parásito
+                    muy particular... ¡Y eso es justo lo que acaba de pasar!
+                    C-Ortez ha tenido éxito, tiene en sus manos un informe
+                    secreto sobre un parásito... muy particular. Este informe,
+                    que su hija quería obtener a toda costa, está en buenas
+                    manos. Informe de incidentes entregado a Kate - Pulp,
+                    anomalía OCULUS Ocurre que, a veces, los parásitos del
+                    Oculus no consiguen encontrar un huésped y acaban perdiendo
+                    sus capacidades simbióticas. Esto es extremadamente raro y
+                    Pulp es uno de estos casos. El simbionte está custodiado por
+                    una misteriosa persona exenta de emociones, por lo que no la
+                    puede parasitar. Hay que recuperarlo y averiguar dónde se
+                    originó esta incapacidad para infiltrarse.
+                  </p>
+                </div>
+                <p class="card-footer">Precio: $100</p>
+                <button href="" class="btn btn-primary">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
       <!--Fin del Main-->
       <!--Inicio del footer-->
-
-      <div class="footer container-fluid text-center">
-        <div class="row bg-dark">
-          <div class="col-12 text-light h4">Síguenos</div>
-          <div class="col">
-            <a href="https://www.facebook.com/acutegamesoffice" target="_blank">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                fill="currentColor"
-                class="bi bi-facebook"
-                viewBox="0 0 16 16"
+      <footer>
+        <div class="footer container-fluid text-center">
+          <div class="row bg-dark">
+            <div class="col-12 text-light h4">Síguenos</div>
+            <div class="col">
+              <a
+                href="https://www.facebook.com/acutegamesoffice"
+                target="_blank"
               >
-                <path
-                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
-                />
-              </svg>
-            </a>
-            <a href="https://www.instagram.com/acutegames/" target="_blank"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                fill="currentColor"
-                class="bi bi-instagram"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
-                /></svg
-            ></a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                  />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/acutegames/" target="_blank"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                  /></svg
+              ></a>
+            </div>
           </div>
         </div>
-      </div>
+      </footer>
+
       <!--Fin del footer-->
     </div>
     <script src="./../CSS/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

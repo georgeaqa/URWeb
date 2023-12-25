@@ -11,6 +11,11 @@ nav {
       a {
         color: white;
       }
+      a:hover {
+        animation: heartBeat;
+        animation-duration: 2s;
+        color: map-get($map: $color, $key: hover);
+      }
     }
   }
 }

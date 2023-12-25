@@ -25,6 +25,11 @@ nav div #navbarNav {
 nav div #navbarNav a {
   color: white;
 }
+nav div #navbarNav a:hover {
+  animation: heartBeat;
+  animation-duration: 2s;
+  color: rgb(247, 6, 167);
+}
 
 .footer {
   margin-top: 10px;

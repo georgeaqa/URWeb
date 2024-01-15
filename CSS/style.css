@@ -2,6 +2,10 @@ p {
   text-align: justify;
 }
 
+.grid {
+  grid-template-rows: none;
+}
+
 @font-face {
   font-family: UrbanRivals;
   src: url(./../fonts/UrbanRivals.ttf);
@@ -26,7 +30,7 @@ nav div #navbarNav a {
   color: white;
 }
 nav div #navbarNav a:hover {
-  animation: heartBeat;
+  animation: pulse;
   animation-duration: 2s;
   color: rgb(247, 6, 167);
 }
